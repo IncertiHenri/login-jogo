@@ -1,0 +1,43 @@
+:root {
+    --padrao: #FFDC94;
+    --escrita: #402F0E;
+}
+
+body{
+    background-image: url(assets/World_Amphoreus.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#loginJogo{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: antiquewhite;
+    gap: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 5px solid var(--padrao);
+    border-radius: 10px;
+}
+
+#botao{
+    border: solid 2px var(--padrao);
+    background-color: var(--padrao);
+    border-radius: 10px;
+}
+
+#usuario{
+    border: solid 2px var(--padrao);
+    border-radius: 10px;
+}
+
+#senha{
+    border: solid 2px var(--padrao);
+    border-radius: 10px;
+}
+
+.label{
+    color: var(--escrita);
+}
