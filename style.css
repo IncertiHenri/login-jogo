@@ -1,43 +1,84 @@
 :root {
     --padrao: #FFDC94;
     --escrita: #402F0E;
+    --fundo: #faebd7;
+    --titulo: #EFAF2E;
 }
 
-body{
+#pagLogin {
     background-image: url(assets/World_Amphoreus.webp);
     background-size: cover;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
-#loginJogo{
+#loginJogo {
     display: inline-flex;
     flex-direction: column;
     padding: 10px;
-    background-color: antiquewhite;
+    background-color: var(--fundo);
     gap: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 5px solid var(--padrao);
     border-radius: 10px;
 }
 
-#botao{
+.botao {
     border: solid 2px var(--padrao);
     background-color: var(--padrao);
     border-radius: 10px;
 }
 
-#usuario{
+#usuario {
     border: solid 2px var(--padrao);
     border-radius: 10px;
 }
 
-#senha{
+#senha {
     border: solid 2px var(--padrao);
     border-radius: 10px;
 }
 
-.label{
+.label {
+    color: var(--escrita);
+}
+
+nav {
+    background-color: var(--fundo);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--escrita);
+    opacity: 90%;
+}
+
+.imagemNav {
+    padding-top: 5px;
+    height: 80px;
+    width: auto;
+}
+
+#pagInicial {
+    margin: 0;
+    background-image: url(assets/amphoreus.avif);
+    background-size: cover;
+}
+
+.campo {
+    padding: 10px;
+    background-color: var(--fundo);
+    margin: 50px;
+    border: solid 5px var(--padrao);
+    border-radius: 10px;
+}
+
+.titulo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--titulo);
+}
+
+.texto {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--escrita);
 }
