@@ -3,6 +3,7 @@
     --escrita: #402F0E;
     --fundo: #faebd7;
     --titulo: #EFAF2E;
+    --fundocriacao: #2a2a4b;
 }
 
 #pagLogin {
@@ -81,4 +82,22 @@ nav {
 .texto {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--escrita);
+}
+
+#pagPersonagens {
+    background-color: var(--fundocriacao);
+}
+
+.inline {
+    display: inline-flex;
+    gap: 30px;
+
+}
+
+.padtop {
+    padding-top: 20px;
+}
+
+.herois {
+    padding-left: 15px;
 }

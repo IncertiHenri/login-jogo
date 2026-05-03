@@ -22,6 +22,10 @@ document.getElementById("loginJogo").onsubmit = (e) => {
     }
 }
 
-function proximaPagina() {
+function pgnPersonagens() {
     window.location.href = "index3.html";
+}
+
+function pgnHistoria() {
+    window.location.href = "index4.html";
 }
