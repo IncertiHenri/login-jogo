@@ -101,3 +101,7 @@ nav {
 .herois {
     padding-left: 15px;
 }
+
+#historia{
+    background-image: url(assets/criacao.webp);
+}

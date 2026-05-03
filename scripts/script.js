@@ -29,3 +29,7 @@ function pgnPersonagens() {
 function pgnHistoria() {
     window.location.href = "index4.html";
 }
+
+function inicio() {
+    window.location.href = "index.html";
+}
